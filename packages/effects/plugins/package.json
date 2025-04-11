@@ -1,0 +1,47 @@
+{
+  "name": "@uiron/plugins",
+  "version": "5.5.4",
+  "homepage": "https://github.com/vbenjs/vue-vben-admin",
+  "bugs": "https://github.com/vbenjs/vue-vben-admin/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbenjs/vue-vben-admin.git",
+    "directory": "packages/effects/plugins"
+  },
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    "./echarts": {
+      "types": "./src/echarts/index.ts",
+      "default": "./src/echarts/index.ts"
+    },
+    "./vxe-table": {
+      "types": "./src/vxe-table/index.ts",
+      "default": "./src/vxe-table/index.ts"
+    },
+    "./motion": {
+      "types": "./src/motion/index.ts",
+      "default": "./src/motion/index.ts"
+    }
+  },
+  "dependencies": {
+    "@uiron-core/form-ui": "workspace:*",
+    "@uiron-core/shadcn-ui": "workspace:*",
+    "@uiron-core/shared": "workspace:*",
+    "@uiron/hooks": "workspace:*",
+    "@uiron/icons": "workspace:*",
+    "@uiron/locales": "workspace:*",
+    "@uiron/preferences": "workspace:*",
+    "@uiron/types": "workspace:*",
+    "@uiron/utils": "workspace:*",
+    "@vueuse/core": "catalog:",
+    "@vueuse/motion": "catalog:",
+    "echarts": "catalog:",
+    "vue": "catalog:",
+    "vxe-pc-ui": "catalog:",
+    "vxe-table": "catalog:"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "@uiron/layouts",
+  "version": "5.5.4",
+  "homepage": "https://github.com/vbenjs/vue-vben-admin",
+  "bugs": "https://github.com/vbenjs/vue-vben-admin/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbenjs/vue-vben-admin.git",
+    "directory": "packages/effects/layouts"
+  },
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "dependencies": {
+    "@uiron-core/composables": "workspace:*",
+    "@uiron-core/form-ui": "workspace:*",
+    "@uiron-core/layout-ui": "workspace:*",
+    "@uiron-core/menu-ui": "workspace:*",
+    "@uiron-core/popup-ui": "workspace:*",
+    "@uiron-core/shadcn-ui": "workspace:*",
+    "@uiron-core/shared": "workspace:*",
+    "@uiron-core/tabs-ui": "workspace:*",
+    "@uiron/constants": "workspace:*",
+    "@uiron/hooks": "workspace:*",
+    "@uiron/icons": "workspace:*",
+    "@uiron/locales": "workspace:*",
+    "@uiron/preferences": "workspace:*",
+    "@uiron/stores": "workspace:*",
+    "@uiron/types": "workspace:*",
+    "@uiron/utils": "workspace:*",
+    "@vueuse/core": "catalog:",
+    "vue": "catalog:",
+    "vue-router": "catalog:"
+  }
+}
