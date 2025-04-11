@@ -1,0 +1,47 @@
+{
+  "name": "@uiron/lint-config",
+  "version": "0.0.1",
+  "author": "1254326645@qq.com",
+  "license": "MIT",
+  "homepage": "https://github.com/karoboflower/uiron-admin",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": "https://github.com/karoboflower/uiron-admin/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karoboflower/uiron-admin.git",
+    "directory": "internal/lint-configs"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "stub": "pnpm unbuild --stub",
+    "prepublishOnly": "pnpm run stub",
+    "release": "bumpp"
+  },
+  "devDependencies": {
+    "eslint": "^9.22.0",
+    "eslint-plugin-format": "^1.0.1",
+    "@antfu/eslint-config": "^4.8.1",
+    "bumpp": "^9.5.2",
+    "@commitlint/cli": "^18.2.0",
+    "typescript": "^4.9.4"
+  },
+  "engines": {
+    "node": ">=18.20.3",
+    "pnpm": ">=9.12.0"
+  }
+}

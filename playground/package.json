@@ -1,0 +1,55 @@
+{
+  "name": "@uiron/playground",
+  "version": "5.5.4",
+  "homepage": "https://vben.pro",
+  "bugs": "https://github.com/vbenjs/vue-vben-admin/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbenjs/vue-vben-admin.git",
+    "directory": "playground"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "vben",
+    "email": "ann.vben@gmail.com",
+    "url": "https://github.com/anncwb"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "pnpm vite build --mode production",
+    "build:analyze": "pnpm vite build --mode analyze",
+    "dev": "pnpm vite --mode development",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit --skipLibCheck",
+    "test:e2e": "playwright test",
+    "test:e2e-ui": "playwright test --ui",
+    "test:e2e-codegen": "playwright codegen"
+  },
+  "imports": {
+    "#/*": "./src/*"
+  },
+  "dependencies": {
+    "@tanstack/vue-query": "catalog:",
+    "@uiron-core/menu-ui": "workspace:*",
+    "@uiron/access": "workspace:*",
+    "@uiron/common-ui": "workspace:*",
+    "@uiron/constants": "workspace:*",
+    "@uiron/hooks": "workspace:*",
+    "@uiron/icons": "workspace:*",
+    "@uiron/layouts": "workspace:*",
+    "@uiron/locales": "workspace:*",
+    "@uiron/plugins": "workspace:*",
+    "@uiron/preferences": "workspace:*",
+    "@uiron/request": "workspace:*",
+    "@uiron/stores": "workspace:*",
+    "@uiron/styles": "workspace:*",
+    "@uiron/types": "workspace:*",
+    "@uiron/utils": "workspace:*",
+    "@vueuse/core": "catalog:",
+    "ant-design-vue": "catalog:",
+    "dayjs": "catalog:",
+    "pinia": "catalog:",
+    "vue": "catalog:",
+    "vue-router": "catalog:"
+  }
+}

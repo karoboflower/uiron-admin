@@ -1,0 +1,45 @@
+{
+  "name": "@uiron/common-ui",
+  "version": "5.5.4",
+  "homepage": "https://github.com/vbenjs/vue-vben-admin",
+  "bugs": "https://github.com/vbenjs/vue-vben-admin/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbenjs/vue-vben-admin.git",
+    "directory": "packages/effects/common-ui"
+  },
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "dependencies": {
+    "@uiron-core/form-ui": "workspace:*",
+    "@uiron-core/popup-ui": "workspace:*",
+    "@uiron-core/preferences": "workspace:*",
+    "@uiron-core/shadcn-ui": "workspace:*",
+    "@uiron-core/shared": "workspace:*",
+    "@uiron/constants": "workspace:*",
+    "@uiron/hooks": "workspace:*",
+    "@uiron/icons": "workspace:*",
+    "@uiron/locales": "workspace:*",
+    "@uiron/types": "workspace:*",
+    "@vueuse/core": "catalog:",
+    "@vueuse/integrations": "catalog:",
+    "qrcode": "catalog:",
+    "tippy.js": "catalog:",
+    "vue": "catalog:",
+    "vue-json-viewer": "catalog:",
+    "vue-router": "catalog:",
+    "vue-tippy": "catalog:"
+  },
+  "devDependencies": {
+    "@types/qrcode": "catalog:"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "folders": [
+    {
+      "name": "@uiron/backend-mock",
+      "path": "apps/backend-mock",
+    },
+    {
+      "name": "@uiron/web-antd",
+      "path": "apps/web-antd",
+    },
+    {
+      "name": "@uiron/web-ele",
+      "path": "apps/web-ele",
+    },
+    {
+      "name": "@uiron/web-naive",
+      "path": "apps/web-naive",
+    },
+    {
+      "name": "@uiron/docs",
+      "path": "docs",
+    },
+    {
+      "name": "@uiron/commitlint-config",
+      "path": "internal/lint-configs/commitlint-config",
+    },
+    {
+      "name": "@uiron/eslint-config",
+      "path": "internal/lint-configs/eslint-config",
+    },
+    {
+      "name": "@uiron/prettier-config",
+      "path": "internal/lint-configs/prettier-config",
+    },
+    {
+      "name": "@uiron/stylelint-config",
+      "path": "internal/lint-configs/stylelint-config",
+    },
+    {
+      "name": "@uiron/node-utils",
+      "path": "internal/node-utils",
+    },
+    {
+      "name": "@uiron/tailwind-config",
+      "path": "internal/tailwind-config",
+    },
+    {
+      "name": "@uiron/tsconfig",
+      "path": "internal/tsconfig",
+    },
+    {
+      "name": "@uiron/vite-config",
+      "path": "internal/vite-config",
+    },
+    {
+      "name": "@uiron-core/design",
+      "path": "packages/@core/base/design",
+    },
+    {
+      "name": "@uiron-core/icons",
+      "path": "packages/@core/base/icons",
+    },
+    {
+      "name": "@uiron-core/shared",
+      "path": "packages/@core/base/shared",
+    },
+    {
+      "name": "@uiron-core/typings",
+      "path": "packages/@core/base/typings",
+    },
+    {
+      "name": "@uiron-core/composables",
+      "path": "packages/@core/composables",
+    },
+    {
+      "name": "@uiron-core/preferences",
+      "path": "packages/@core/preferences",
+    },
+    {
+      "name": "@uiron-core/form-ui",
+      "path": "packages/@core/ui-kit/form-ui",
+    },
+    {
+      "name": "@uiron-core/layout-ui",
+      "path": "packages/@core/ui-kit/layout-ui",
+    },
+    {
+      "name": "@uiron-core/menu-ui",
+      "path": "packages/@core/ui-kit/menu-ui",
+    },
+    {
+      "name": "@uiron-core/popup-ui",
+      "path": "packages/@core/ui-kit/popup-ui",
+    },
+    {
+      "name": "@uiron-core/shadcn-ui",
+      "path": "packages/@core/ui-kit/shadcn-ui",
+    },
+    {
+      "name": "@uiron-core/tabs-ui",
+      "path": "packages/@core/ui-kit/tabs-ui",
+    },
+    {
+      "name": "@uiron/constants",
+      "path": "packages/constants",
+    },
+    {
+      "name": "@uiron/access",
+      "path": "packages/effects/access",
+    },
+    {
+      "name": "@uiron/common-ui",
+      "path": "packages/effects/common-ui",
+    },
+    {
+      "name": "@uiron/hooks",
+      "path": "packages/effects/hooks",
+    },
+    {
+      "name": "@uiron/layouts",
+      "path": "packages/effects/layouts",
+    },
+    {
+      "name": "@uiron/plugins",
+      "path": "packages/effects/plugins",
+    },
+    {
+      "name": "@uiron/request",
+      "path": "packages/effects/request",
+    },
+    {
+      "name": "@uiron/icons",
+      "path": "packages/icons",
+    },
+    {
+      "name": "@uiron/locales",
+      "path": "packages/locales",
+    },
+    {
+      "name": "@uiron/preferences",
+      "path": "packages/preferences",
+    },
+    {
+      "name": "@uiron/stores",
+      "path": "packages/stores",
+    },
+    {
+      "name": "@uiron/styles",
+      "path": "packages/styles",
+    },
+    {
+      "name": "@uiron/types",
+      "path": "packages/types",
+    },
+    {
+      "name": "@uiron/utils",
+      "path": "packages/utils",
+    },
+    {
+      "name": "@uiron/playground",
+      "path": "playground",
+    },
+    {
+      "name": "@uiron/turbo-run",
+      "path": "scripts/turbo-run",
+    },
+    {
+      "name": "@uiron/vsh",
+      "path": "scripts/vsh",
+    },
+  ],
+}
