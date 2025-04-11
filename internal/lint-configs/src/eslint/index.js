@@ -1,7 +1,4 @@
-import process from 'node:process';
-import antfu from '@antfu/eslint-config';
 
-const dev = process.env?.NODE_ENV;
 const defaultConfig = {
   stylistic: {
     indent: 2, // 4, or 'tab'
@@ -69,16 +66,13 @@ const defaultConfig = {
     // 'style/comma-dangle': 'off',
   },
 }
-interface UserConfig {
-  [key: string]: any;
-}
 
-export default function (config: Partial<UserConfig> = {}) {
+export default function (config = {}) {
   // 只给配置rules 
-  return antfu({
+  return {
     ...defaultConfig,
     ...config,
     ...defaultConfig.rules,
     ...config.rules,
-  })
+  }
 }

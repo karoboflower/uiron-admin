@@ -1,12 +1,12 @@
 {
   "name": "@uiron/lint-config",
-  "version": "0.0.2-beta.2",
+  "version": "0.0.2",
   "author": "1254326645@qq.com",
   "license": "MIT",
   "homepage": "https://github.com/karoboflower/uiron-admin",
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npjs.org/"
+    "registry": "https://registry.npmjs.org/"
   },
   "bugs": "https://github.com/karoboflower/uiron-admin/issues",
   "repository": {
