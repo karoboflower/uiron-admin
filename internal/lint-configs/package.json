@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "typescript": "^4.9.4",
-    "rollup": "^4.39.0",
+    "rollup": "^4.40.0",
     "bumpp": "^10.0.3"
   }
 }
