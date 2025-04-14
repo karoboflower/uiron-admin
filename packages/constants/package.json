@@ -1,11 +1,11 @@
 {
   "name": "@uiron/constants",
   "version": "5.5.4",
-  "homepage": "https://github.com/vbenjs/vue-vben-admin",
-  "bugs": "https://github.com/vbenjs/vue-vben-admin/issues",
+  "homepage": "https://github.com/karoboflower/uiron-admin",
+  "bugs": "https://github.com/karoboflower/uiron-admin/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vbenjs/vue-vben-admin.git",
+    "url": "git+https://github.com/karoboflower/uiron-admin.git",
     "directory": "packages/constants"
   },
   "license": "MIT",
@@ -19,7 +19,10 @@
       "default": "./src/index.ts"
     }
   },
-  "dependencies": {
-    "@uiron-core/shared": "workspace:*"
+  "scripts": {
+    "release": "bumpp"
+  },
+  "devDependencies": {
+    "bumpp": "^10.0.3"
   }
 }

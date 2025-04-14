@@ -1,11 +1,11 @@
 {
   "name": "@uiron/request",
   "version": "5.5.4",
-  "homepage": "https://github.com/vbenjs/vue-vben-admin",
-  "bugs": "https://github.com/vbenjs/vue-vben-admin/issues",
+  "homepage": "https://github.com/karoboflower/uiron-admin",
+  "bugs": "https://github.com/karoboflower/uiron-admin/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vbenjs/vue-vben-admin.git",
+    "url": "git+https://github.com/karoboflower/uiron-admin.git",
     "directory": "packages/effects/request"
   },
   "license": "MIT",
@@ -20,13 +20,6 @@
     }
   },
   "dependencies": {
-    "@uiron/locales": "workspace:*",
-    "@uiron/utils": "workspace:*",
-    "axios": "catalog:",
-    "qs": "catalog:"
-  },
-  "devDependencies": {
-    "@types/qs": "catalog:",
-    "axios-mock-adapter": "catalog:"
+    "axios": "catalog:"
   }
 }

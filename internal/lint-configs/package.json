@@ -1,6 +1,6 @@
 {
   "name": "@uiron/lint-config",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "1254326645@qq.com",
   "license": "MIT",
   "homepage": "https://github.com/karoboflower/uiron-admin",
@@ -20,22 +20,26 @@
   ],
   "main": "./dist/index.esm.js",
   "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
       "require": "./dist/index.cjs",
       "default": "./dist/index.esm.js"
     }
   },
   "scripts": {
-    "build": "rollup -c rollup.config.mjs",
+    "build": "rollup -c rollup.config.mjs && tsc --emitDeclarationOnly",
     "dev": "rollup -c rollup.config.mjs --watch",
     "prepublishOnly": "pnpm run build",
     "release": "bumpp"
   },
   "devDependencies": {
-    "typescript": "^4.9.4",
+    "typescript": "^5.3.3",
     "rollup": "^4.39.0",
-    "bumpp": "^10.0.3"
+    "bumpp": "^10.0.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "tslib": "^2.6.2"
   }
 }

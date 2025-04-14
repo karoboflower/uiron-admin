@@ -2,10 +2,10 @@
   "name": "@uiron/playground",
   "version": "5.5.4",
   "homepage": "https://vben.pro",
-  "bugs": "https://github.com/vbenjs/vue-vben-admin/issues",
+  "bugs": "https://github.com/karoboflower/uiron-admin/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vbenjs/vue-vben-admin.git",
+    "url": "git+https://github.com/karoboflower/uiron-admin.git",
     "directory": "playground"
   },
   "license": "MIT",

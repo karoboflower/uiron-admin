@@ -1,0 +1,26 @@
+{
+  "name": "@uiron/base-admin",
+  "version": "0.0.1",
+  "homepage": "https://github.com/karoboflower/uiron-admin",
+  "bugs": "https://github.com/karoboflower/uiron-admin/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karoboflower/uiron-admin.git",
+    "directory": "packages/base-admin"
+  },
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "dependencies": {
+    "axios": "catalog:",
+    "element-plus": "catalog:"
+  }
+}

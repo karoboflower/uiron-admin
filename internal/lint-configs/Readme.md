@@ -35,7 +35,7 @@ pnpm add commitlint @commitlint/cli -D
 ```js
 const { commitlintConfig } = require('@uiron/lint-config');
 
-module.exports = commitlintConfig;
+module.exports = commitlintConfig();
 ```
 
 ### ESLint Setup
@@ -71,7 +71,7 @@ pnpm add prettier -D
 ```js
 const { prettierConfig } = require('@uiron/lint-config');
 
-module.exports = prettierConfig;
+module.exports = prettierConfig();
 
 ```
 
@@ -114,7 +114,7 @@ Add the following to your `settings.json`:
   ]
 }
 ```
-## 📝 Other
+## 📝 Recommend
 dependencies 
 ```bash
 pnpm add  husky lint-staged -D
@@ -131,7 +131,7 @@ package.json
      "lint-staged": {
       "*.{js,ts,vue,jsx,tsx,json,css,scss,less,mjs,md}": [
       "eslint --fix --ext .js,.ts,.vue,.jsx,.tsx,.json,.md",
-      "prettier --write "
+      "prettier --write"
     ]
   }
 }

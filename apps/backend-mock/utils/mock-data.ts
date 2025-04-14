@@ -342,7 +342,7 @@ export const MOCK_MENU_LIST = [
         status: 1,
         meta: {
           icon: 'carbon:logo-github',
-          link: 'https://github.com/vbenjs/vue-vben-admin',
+          link: 'https://github.com/karoboflower/uiron-admin',
           title: 'Github',
         },
       },

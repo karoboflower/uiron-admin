@@ -1,5 +1,8 @@
+interface ESLintConfig {
+ [key: string]: any;
+}
 
-const defaultConfig = {
+const defaultConfig = ({ dev }: Record<string,any> = {}): ESLintConfig => ({
   stylistic: {
     indent: 2, // 4, or 'tab'
     quotes: 'single', // or 'double'
@@ -65,14 +68,15 @@ const defaultConfig = {
     // trailingComma  style/comma-dangle 要保持一直
     // 'style/comma-dangle': 'off',
   },
-}
-
-export default function (config = {}) {
-  // 只给配置rules 
+});
+export default function(config: Partial<ESLintConfig> = {}): ESLintConfig {
+  const dev = process.env?.NODE_ENV as 'development' | 'production';
   return {
-    ...defaultConfig,
+    ...defaultConfig({ dev }),
     ...config,
-    ...defaultConfig.rules,
-    ...config.rules,
-  }
+    rules: {
+      ...defaultConfig({ dev }).rules,
+      ...config.rules,
+    },
+  };
 }
