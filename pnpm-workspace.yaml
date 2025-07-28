@@ -29,7 +29,7 @@ catalog:
   '@intlify/core-base': ^11.1.2
   '@intlify/unplugin-vue-i18n': ^6.0.5
   '@jspm/generator': ^2.5.1
-  '@manypkg/get-packages': ^2.2.2
+  '@manypkg/get-packages': ^3.1.0
   '@nolebase/vitepress-plugin-git-changelog': ^2.15.1
   '@playwright/test': ^1.51.1
   '@pnpm/workspace.read-manifest': ^1000.1.2
